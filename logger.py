@@ -12,7 +12,7 @@ def input_data():
     f"2 Вариант: \n"
     f"{name};{surname};{phone};{address}\n"
     f"Выберите вариант: "))
-    while var != 1 and command != 2:
+    while var != 1 and var != 2:
         print("Неправильный ввод")     # защита от пользователя, если пользователь ввел что-то не то
         var = int(input("Введите число "))
 
